@@ -1,6 +1,6 @@
 from aiogram import Bot, F, Router
 from aiogram.filters import Command, CommandStart
-from aiogram.types import Message,reply_keyboard_remove
+from aiogram.types import Message
 from keyboards.keyboards import volk_kb, ans_kb
 from lexicon.lexicon_ru import LEXICON_RU
 from services.services import get_joke
