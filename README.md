@@ -1,1 +1,1 @@
-# Radar MMS educational center bot
+# Radar attendance bot
