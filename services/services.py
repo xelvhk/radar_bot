@@ -1,6 +1,9 @@
+from aiogram import Bot, F, Router
+from aiogram.filters import Command, CommandStart
+from aiogram.types import Message
 from lexicon.lexicon_ru import LEXICON_RU
 import requests
-import json
+
 
 def get_joke() -> str:
     joke_url = f"http://rzhunemogu.ru/RandJSON.aspx?CType=1"
