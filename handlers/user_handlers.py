@@ -62,5 +62,5 @@ async def handle_status(message: Message):
             user_status[user_id] = {"username": username, "status": status}
             result = f"Спасибо, {username}, Ваш статус - {status} записан"
         else:
-            result = f"{username}, ты уже тыкал"
+            result = f"{username}, ты уже тыкал, хватит"
     await message.reply(result)
